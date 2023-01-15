@@ -1,3 +1,15 @@
+macro_select-left: macro_select-left{
+compatible = "zmk,behavior-macro";
+label = "macro_select-left";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp LEFT_ARROW>;
+};
+macro_select-right: macro_select-right{
+compatible = "zmk,behavior-macro";
+label = "macro_select-right";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp RIGHT_ARROW>;
+};
 macro_select-end: macro_select-end{
 compatible = "zmk,behavior-macro";
 label = "macro_select-end";
