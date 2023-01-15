@@ -4,25 +4,25 @@
     #binding-cells = <0>;
     bindings = <&kp LEFT_SHIFT>, <&kp F6>;
   };
-  macro_select-left: macro_select-left {
+  macro_selectleft: macro_selectleft {
     compatible = "zmk,behavior-macro";
     label = "macro_select-left";
     #binding-cells = <0>;
     bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp LEFT_ARROW>;
   };
-  macro_select-right: macro_select-right {
+  macro_selectright: macro_selectright {
     compatible = "zmk,behavior-macro";
     label = "macro_select-right";
     #binding-cells = <0>;
     bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp RIGHT_ARROW>;
   };
-  macro_select-end: macro_select-end {
+  macro_selectend: macro_selectend {
     compatible = "zmk,behavior-macro";
     label = "macro_select-end";
     #binding-cells = <0>;
     bindings = <&kp LEFT_SHIFT>, <&kp END>;
   };
-  macro_select-start: macro_select-start {
+  macro_selectstart: macro_selectstart {
     compatible = "zmk,behavior-macro";
     label = "macro_select-start";
     #binding-cells = <0>;
