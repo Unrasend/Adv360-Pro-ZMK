@@ -1,3 +1,9 @@
+macro_refactor: macro_refactor{
+compatible = "zmk,behavior-macro";
+label = "macro_refactor";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp F6>;
+};
 macro_select-left: macro_select-left{
 compatible = "zmk,behavior-macro";
 label = "macro_select-left";
